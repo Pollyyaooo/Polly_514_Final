@@ -13,3 +13,5 @@ The project explores how physiological sensing can be integrated into non-watch 
 ![Sensing Device](assets/images/sensing_device.png)
 
 ![Display Device](assets/images/display_device.png)
+
+![Device Communication Diagram](assets/images/communication.png)
