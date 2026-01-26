@@ -20,6 +20,7 @@ the display device externalizes these signals as a slow, glanceable, and non-int
 artifact. Through this separation, the project explores how emotional states can be felt,
 noticed, and reflected upon, without being classified or explained away.
 
+![overview](assets/overview.png)
 ---
 
 ## System Architecture
