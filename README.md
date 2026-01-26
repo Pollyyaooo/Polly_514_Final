@@ -1,17 +1,40 @@
-# Shared-Use Heart Rate Choker
+# EmoTrace
 #### MSTI TECHIN 514 Final Project           
 #### 01/06/2026-03/06/2026
 
-This project is a distributed, wearable choker system designed to estimate heart rate for both humans and companion animals (cats and dogs).  
-Using a skin-contact PPG sensor embedded in a modular choker form, the system locally processes heart-rate-related signals and wirelessly transmits summarized results to a physical display device.  
-The project explores how physiological sensing can be integrated into non-watch wearable accessories while remaining adaptable across species and neck sizes.
 
-#### Overall System Overview
+## Project Overview
 
-![Choker Overview](assets/images/choker_overview.png)
+This project investigates emotion sensing as a process of externalization rather than interpretation.
+It measures physiological arousal through galvanic skin response (GSR) and expresses it using a
+stepper-motor-driven physical needle display.
 
-![Sensing Device](assets/images/sensing_device.png)
+Instead of identifying discrete emotions or presenting numerical readouts, the system focuses on
+how affective states unfold over time. Changes in arousal are rendered as continuous physical
+motion, allowing inertia, gradual transitions, and recovery to remain visible rather than being
+collapsed into instantaneous values.
 
-![Display Device](assets/images/display_device.png)
+The project is composed of two physically separated devices: a sensing device and a display device,
+connected wirelessly via BLE. The sensing device captures and processes physiological signals, while
+the display device externalizes these signals as a slow, glanceable, and non-intrusive physical
+artifact. Through this separation, the project explores how emotional states can be felt,
+noticed, and reflected upon, without being classified or explained away.
 
-![Device Communication Diagram](assets/images/communication.png)
+---
+
+## System Architecture
+
+![System Architecture](assets/system_architecture.png)
+
+**Sensing Device**
+- Captures electrodermal activity via finger electrodes and a GSR sensor module
+- Performs basic digital signal processing (filtering, baseline normalization)
+- Transmits a continuous arousal indicator via BLE
+
+**Display Device**
+- Receives arousal data wirelessly
+- Drives a stepper-motor-based gauge needle as the primary expressive output
+- Provides minimal user input and status indication
+- Is implemented on a custom-designed PCB
+
+
