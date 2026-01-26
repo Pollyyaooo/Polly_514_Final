@@ -21,7 +21,6 @@ artifact. Through this separation, the project explores how emotional states can
 noticed, and reflected upon, without being classified or explained away.
 
 ![overview](assets/overview.png)
----
 
 ## System Architecture
 
