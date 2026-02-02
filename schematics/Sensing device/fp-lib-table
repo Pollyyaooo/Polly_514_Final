@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SSD1306")(type "KiCad")(uri "/Users/yaoyitong/Documents/Pollyyaooo-Polly_514_Final/kicad_libs/SSD1306/SSD1306.pretty")(options "")(descr ""))
+  (lib (name "GIX_ESP32")(type "KiCad")(uri "/Users/yaoyitong/Documents/Pollyyaooo-Polly_514_Final/kicad_libs/XIAO_ESP32/GIX_ESP32.pretty")(options "")(descr ""))
+  (lib (name "HC_SR04_new")(type "KiCad")(uri "/Users/yaoyitong/Documents/Pollyyaooo-Polly_514_Final/kicad_libs/HC_SR04_new/HC_SR04_new.pretty")(options "")(descr ""))
+  (lib (name "x27_Footprint")(type "KiCad")(uri "/Users/yaoyitong/Documents/Pollyyaooo-Polly_514_Final/kicad_libs/x27_Footprint")(options "")(descr ""))
+)
