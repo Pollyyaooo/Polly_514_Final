@@ -37,4 +37,14 @@ noticed, and reflected upon, without being classified or explained away.
 - Provides minimal user input and status indication
 - Is implemented on a custom-designed PCB
 
+## Battery Estimation
+
+### Display Device
+Spreadsheet link:  
+https://1drv.ms/x/c/3520740a59bca320/IQBtffllcoQcSJlxG03brPWNAZ11j2MDRlCTxOjXR5vgqAk?e=tpQcXu
+
+
+### Sensing Device
+Spreadsheet link:  
+https://1drv.ms/x/c/3520740a59bca320/IQDMDjtJkVfMQYsOUzpoie-YAZGBVunHImL63yKkG8l4-dY?e=yHCJq8
 
