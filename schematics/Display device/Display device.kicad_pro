@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber1.0/",
+      "plot": "Polly-Display-Gerber2.0/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Display device.step",
       "svg": "",
       "vrml": ""
     },

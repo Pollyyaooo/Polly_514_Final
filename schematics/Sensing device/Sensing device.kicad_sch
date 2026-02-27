@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Polly Yao_EmoTrace_Sensing Device")
-		(date "2026-02-01")
-		(rev "1.0")
+		(date "2026-02-17")
+		(rev "2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -1624,7 +1624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 148.59 63.5 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100NF"
 			(at 171.45 68.5799 0)
 			(effects
 				(font
@@ -1893,7 +1893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10UF"
 			(at 162.56 60.9599 0)
 			(effects
 				(font
@@ -1963,7 +1963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100NF"
 			(at 175.26 60.9599 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP7A"
 			(at 114.3 60.96 0)
 			(effects
 				(font
